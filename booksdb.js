@@ -1,8 +1,6 @@
 const express = require('express')
 const app = express()
 
-
-
 app.use( express.json() )
 
 let books = {
@@ -18,7 +16,7 @@ let books = {
       "10": {"author": "Samuel Beckett","title": "Molloy, Malone Dies, The Unnamable, the trilogy", "reviews": {} }
 }
 
-app.get( "https://phunguyen398003.github.io/endpointBE_books/bookslist" , (req , res) => {
+app.get( "/bookslist" , (req , res) => {
       const dataBooks = JSON.stringify(books)
       res.status(200).json({ "message" : "Received BooksList" , "data" : dataBooks })
 } )
