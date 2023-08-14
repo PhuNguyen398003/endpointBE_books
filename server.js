@@ -27,4 +27,3 @@ app.get( "/bookslist" , (req , res) => {
 const PORT = 4000
 
 app.listen( PORT , ()  => console.log(`BOOKS Server runnning on PORT : ${PORT}`))
-module.exports.app = app;
