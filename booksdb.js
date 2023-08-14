@@ -1,8 +1,5 @@
 
-{     
-      "mark01" : {
-            "1": "mark01_01_data"
-      } ,
+{
       "books" :{
             "1": {"author": "Chinua Achebe","title": "Things Fall Apart", "reviews": {} },
             "2": {"author": "Hans Christian Andersen","title": "Fairy tales", "reviews": {} },
